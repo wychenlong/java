@@ -1,0 +1,45 @@
+数据库隔离级别
+https://zh.wikipedia.org/wiki/%E4%BA%8B%E5%8B%99%E9%9A%94%E9%9B%A2#.E6.9C.AA.E6.8F.90.E4.BA.A4.E8.AF.BB.28Read_uncommitted.29
+http://www.cnblogs.com/zhoujinyi/p/3437475.html
+
+数据库索引的实现原理
+http://my.oschina.net/liangtee/blog/81909
+http://blog.sina.cn/dpool/blog/s/blog_693f08470101mccl.html
+http://blog.csdn.net/v_JULY_v/article/details/6530142
+http://blog.jobbole.com/24006/
+http://www.cnblogs.com/fxjwind/archive/2012/06/09/2543357.html
+
+
+磁盘结构
+http://www.cnblogs.com/joydinghappy/articles/2511948.html
+mysql日志
+http://aceruser.blog.51cto.com/2772529/658842
+
+MYSQL 锁解析
+http://hedengcheng.com/?p=771
+http://hedengcheng.com/?p=828
+
+Mysql 并发度控制
+http://www.gpfeng.com/?p=499
+
+MySQL 并行复制
+http://backend.blog.163.com/blog/static/20229412620135611215610/
+
+数据库分库分表架构方案
+http://mp.weixin.qq.com/s?__biz=MzI0MjA1Mjg2Ng==&mid=400528497&idx=1&sn=6b068d924ba06d030bbb5b147265abfa
+http://junwang.blog.51cto.com/5050337/1424711
+http://www.code123.cc/324.htm
+http://www.uml.org.cn/sjjm/201211212.asp
+http://docs.hexnova.com/amoeba/
+http://www.infoq.com/cn/articles/yupoo-partition-database
+
+数据库反范式设计
+http://www.infoq.com/cn/presentations/distributed-database-and-anti-paradigm-design
+
+分布式设计概念
+http://www.verydemo.com/demo_c209_i81406.html
+http://www.choudan.net/2013/08/07/CAP%E7%90%86%E8%AE%BA%E5%92%8CNWR%E7%AD%96%E7%95%A5.html
+
+
+
+
