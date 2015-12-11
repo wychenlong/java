@@ -54,5 +54,13 @@ chown -R apache /var/www/reviews.example.com/htdocs/media/ext
 chown -R apache /var/www/reviews.example.com/htdocs/static/ext
 chown -R apache /var/www/reviews.example.com/data/
 
+客户端
+http://code.taobao.org/p/tao-reviewboard/wiki/index/
+rbtool
+
 find / -name httpd
 whereis httpd
+
+请详细阅读官网步骤：
+http://www.reviewboard.org/docs/manual/dev/admin/installation/linux/
+http://www.reviewboard.org/docs/manual/dev/admin/installation/creating-sites/#creating-sites
