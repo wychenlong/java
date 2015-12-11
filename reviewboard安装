@@ -1,0 +1,58 @@
+mysql 安装
+1、查看是否安装
+   yum list installed | grep mysql
+2、卸载安装
+   yum -y remove mysql-libs.x86_64
+3、安装
+   yum -y install mysql-server mysql mysql-devel
+4、查看安装信息
+   rpm -qi mysql-server
+5、修改root密码
+   /usr/bin/mysqladmin -u root password 'new-password'
+6、启动mysql
+   /etc/init.d/mysqld start
+7、登录数据库
+    mysql -u root -p
+	
+8、创建数据库
+   CREATE DATABASE reviewboard CHARACTER SET utf8;
+   CREATE USER 'reviewboard'@'localhost' IDENTIFIED BY 'reviewboard';
+   GRANT ALL PRIVILEGES ON reviewboard.* to 'reviewboard'@'localhost';
+   
+ 
+apache安装
+1、yum install httpd
+2、yum -y install mod_wsgi
+3、/etc/init.d/httpd start
+
+python工具安装
+1、yum install python-setuptools
+2、yum install python-devel
+3、easy_install python-memcached
+4、yum install patch
+
+memcached安装 
+1、yum install memcached
+2、yum install python-memcached
+3、/etc/init.d/memcached restart
+
+
+svn工具安装
+1、yum install python-subvertpy
+2、easy_install subvertpy
+3、yum install subversion
+
+
+创建站点
+
+1、rb-site install /var/www/reviews.example.com 
+2、reviews.example.com
+3、cp /var/www/reviews.example.com/conf/apache-wsgi.conf  到/etc/httpd/conf.d/ 
+   
+chown -R apache /var/www/reviews.example.comhtdocs/media/uploaded
+chown -R apache /var/www/reviews.example.com/htdocs/media/ext
+chown -R apache /var/www/reviews.example.com/htdocs/static/ext
+chown -R apache /var/www/reviews.example.com/data/
+
+find / -name httpd
+whereis httpd
